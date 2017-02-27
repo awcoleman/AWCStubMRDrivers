@@ -1,0 +1,9 @@
+{"namespace": "com.awcoleman.examples.avro",
+ "type": "record",
+ "name": "EventThreeFieldRecord",
+ "fields": [
+    {"name": "uuid", "type": "long"},
+    {"name": "datetime", "type": "string"},
+    {"name": "category",  "type": "int"}
+ ]
+}
